@@ -6,3 +6,8 @@
 [課題PDF](https://cdn.intra.42.fr/pdf/pdf/123812/en.subject.pdf)
 
 TLPIやAPUE
+
+# Playground
+
+使用関数の実験
+
