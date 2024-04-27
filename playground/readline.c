@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   readline.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kotkobay <kotkobay@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/27 22:30:26 by kotkobay          #+#    #+#             */
-/*   Updated: 2024/04/27 22:30:41 by kotkobay         ###   ########.fr       */
+/*   Updated: 2024/04/27 22:42:18 by kotkobay         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minishell.h"
+#include "../inc/minishell.h"
 
 int	main(void)
 {
@@ -24,7 +24,6 @@ int	main(void)
 			break ;
 		if (*line)
 			add_history(line);
-		// TODO: intepret line as a command
 		free(line);
 	}
 	exit(0);
