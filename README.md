@@ -1,5 +1,13 @@
 ### TODO
 
+
+## Comand
+
+```
+RLDIR=/opt/homebrew/opt/readline
+gcc readline.c -L $RLDIR/lib -I $RLDIR/include -lreadline
+```
+
 ## 参考資料
 [Minishellの作り方](https://usatie.notion.site/minishell-29921d3ea13447ad897349acd5733d5e#155a4af10cb9420797b53f5d1ad1209f)
 
