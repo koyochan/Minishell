@@ -6,7 +6,7 @@
 /*   By: kotkobay <kotkobay@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/27 22:00:02 by kotkobay          #+#    #+#             */
-/*   Updated: 2024/11/17 15:08:37 by kotkobay         ###   ########.fr       */
+/*   Updated: 2024/11/17 16:32:52 by kotkobay         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,7 @@
 # include <sys/wait.h>
 # include <termios.h>
 # include <unistd.h>
+#include <readline/history.h>
+#include <readline/readline.h>
 
 #endif
