@@ -1,10 +1,12 @@
 CC = gcc
 
-CFLAGS = -Wall -Wextra -Werror -fsanitize=address -g
+CFLAGS = -Wall -Wextra -Werror -fsanitize=address -g -I/opt/homebrew/opt/readline/include
+LDFLAGS = -L/opt/homebrew/opt/readline/lib -lreadline
+
 
 NAME = minishell
 
-SRC = 
+SRC = src/main.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -15,7 +17,8 @@ all:$(NAME)
 
 
 $(NAME): $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJ) -o $(NAME)
+
 
 clean:
 	rm -f $(OBJ)
