@@ -5,7 +5,6 @@ LDFLAGS = -L/opt/homebrew/opt/readline/lib -lreadline
 
 
 NAME = minishell
-kwdada
 
 SRC = src/main.c
 
