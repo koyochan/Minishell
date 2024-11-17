@@ -5,7 +5,7 @@
 
 ```
 RLDIR=/opt/homebrew/opt/readline
-gcc readline.c -L $RLDIR/lib -I $RLDIR/include -lreadline
+gcc main.c -L $RLDIR/lib -I $RLDIR/include -lreadline
 ```
 
 ## 参考資料
