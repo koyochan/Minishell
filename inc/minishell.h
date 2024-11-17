@@ -6,13 +6,14 @@
 /*   By: kotkobay <kotkobay@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/27 22:00:02 by kotkobay          #+#    #+#             */
-/*   Updated: 2024/04/27 22:09:24 by kotkobay         ###   ########.fr       */
+/*   Updated: 2024/11/17 15:08:37 by kotkobay         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef MINISHELL_H
 # define MINISHELL_H
 
+# include <ctype.h>
 # include <curses.h>
 # include <dirent.h>
 # include <fcntl.h>
